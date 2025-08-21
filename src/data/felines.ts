@@ -29,7 +29,7 @@ export const felines: Feline[] = [
       population: "20,000-25,000",
       threats: ["Habitat loss", "Human-wildlife conflict", "Poaching"]
     },
-    images: ["/assets/images/lion.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/lion.png"],
     funFacts: [
       "A lion's roar can be heard from 8 kilometers away",
       "Lions sleep 16-20 hours per day",
@@ -64,7 +64,7 @@ export const felines: Feline[] = [
       population: "400-500",
       threats: ["Poaching", "Habitat fragmentation", "Prey depletion"]
     },
-    images: ["/assets/images/tiger.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/tiger.png"],
     funFacts: [
       "Can leap horizontally up to 10 meters",
       "Has night vision 6 times better than humans",
@@ -99,7 +99,7 @@ export const felines: Feline[] = [
       population: "2,710-3,386",
       threats: ["Climate change", "Poaching", "Retaliatory killing"]
     },
-    images: ["/assets/images/snow_leopard.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/snow_leopard.png"],
     funFacts: [
       "Can jump up to 15 meters in a single leap",
       "Their large paws act like snowshoes",
@@ -134,7 +134,7 @@ export const felines: Feline[] = [
       population: "64,000-173,000",
       threats: ["Deforestation", "Habitat fragmentation", "Hunting"]
     },
-    images: ["/assets/images/jaguar.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/jaguar.png"],
     funFacts: [
       "Has the strongest bite force of any big cat",
       "Excellent swimmers and often hunt in water",
@@ -169,7 +169,7 @@ export const felines: Feline[] = [
       population: "700,000-1,000,000",
       threats: ["Habitat loss", "Poaching", "Human-wildlife conflict"]
     },
-    images: ["/assets/images/leopard.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/leopard.png"],
     funFacts: [
       "Can carry prey twice their body weight up a tree",
       "Have exceptional night vision",
@@ -204,7 +204,7 @@ export const felines: Feline[] = [
       population: "6,500-7,000",
       threats: ["Habitat loss", "Human-wildlife conflict", "Genetic bottleneck"]
     },
-    images: ["/assets/images/cheetah.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/cheetah.png"],
     funFacts: [
       "Can accelerate from 0 to 100 km/h in 3 seconds",
       "Cannot retract their claws completely",
@@ -239,7 +239,7 @@ export const felines: Feline[] = [
       population: "50,000+",
       threats: ["Habitat fragmentation", "Hunting", "Vehicle strikes"]
     },
-    images: ["/assets/images/puma.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/puma.png"],
     funFacts: [
       "Can jump vertically up to 5.5 meters",
       "Cannot roar, only purr and scream",
@@ -274,7 +274,7 @@ export const felines: Feline[] = [
       population: "45,000-50,000",
       threats: ["Habitat loss", "Prey depletion", "Hunting"]
     },
-    images: ["/assets/images/eurasian_lynx.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/eurasian_lynx.png"],
     funFacts: [
       "Can hear a mouse moving 75 meters away",
       "Their large paws act like snowshoes",
@@ -309,7 +309,7 @@ export const felines: Feline[] = [
       population: "2,300,000-3,500,000",
       threats: ["Habitat loss", "Vehicle strikes", "Hunting"]
     },
-    images: ["/assets/images/bobcat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/bobcat.png"],
     funFacts: [
       "Can leap up to 3 meters high",
       "Have excellent night vision",
@@ -344,7 +344,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting", "Road accidents"]
     },
-    images: ["/assets/images/caracal.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/caracal.png"],
     funFacts: [
       "Can leap 3 meters high to catch birds",
       "Can survive without drinking water",
@@ -379,7 +379,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting for fur", "Road accidents"]
     },
-    images: ["/assets/images/serval.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/serval.png"],
     funFacts: [
       "Have the longest legs relative to body size of any cat",
       "Can hear prey moving underground",
@@ -414,7 +414,7 @@ export const felines: Feline[] = [
       population: "800,000-1,500,000",
       threats: ["Habitat loss", "Road accidents", "Illegal pet trade"]
     },
-    images: ["/assets/images/ocelot.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/ocelot.png"],
     funFacts: [
       "Each ocelot has a unique spot pattern",
       "Are excellent swimmers",
@@ -449,7 +449,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Illegal pet trade"]
     },
-    images: ["/assets/images/margay.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/margay.png"],
     funFacts: [
       "Can rotate their ankles 180 degrees",
       "Spend most of their life in trees",
@@ -484,7 +484,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Road accidents", "Hunting"]
     },
-    images: ["/assets/images/jaguarundi.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/jaguarundi.png"],
     funFacts: [
       "Are active during the day unlike most cats",
       "Have an otter-like appearance",
@@ -519,7 +519,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting for fur", "Road accidents"]
     },
-    images: ["/assets/images/geoffroys_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/geoffroys_cat.png"],
     funFacts: [
       "Can live at altitudes up to 3,300 meters",
       "Are excellent swimmers",
@@ -554,7 +554,7 @@ export const felines: Feline[] = [
       population: "9,000-12,000",
       threats: ["Deforestation", "Habitat fragmentation", "Domestic dog attacks"]
     },
-    images: ["/assets/images/kodkod.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/kodkod.png"],
     funFacts: [
       "Smallest wild cat in the Americas",
       "Primarily arboreal",
@@ -589,7 +589,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Hunting"]
     },
-    images: ["/assets/images/oncilla.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/oncilla.png"],
     funFacts: [
       "Primarily arboreal",
       "Have the largest eyes relative to head size of any cat",
@@ -624,7 +624,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat degradation", "Hunting", "Collection for pet trade"]
     },
-    images: ["/assets/images/sand_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/sand_cat.png"],
     funFacts: [
       "Can survive without drinking water",
       "Have fur on the soles of their feet",
@@ -659,7 +659,7 @@ export const felines: Feline[] = [
       population: "9,707-13,867",
       threats: ["Habitat loss", "Poisoning", "Road accidents"]
     },
-    images: ["/assets/images/black_footed_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/black_footed_cat.png"],
     funFacts: [
       "Africa's smallest wild cat",
       "Has a 60% hunting success rate",
@@ -694,7 +694,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting", "Hybridization with domestic cats"]
     },
-    images: ["/assets/images/jungle_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/jungle_cat.png"],
     funFacts: [
       "Largest of the Felis genus",
       "Excellent swimmers",
@@ -729,7 +729,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Hybridization with domestic cats", "Habitat loss", "Disease"]
     },
-    images: ["/assets/images/european_wildcat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/european_wildcat.png"],
     funFacts: [
       "Ancestor of domestic cats",
       "Have a more robust build than domestic cats",
@@ -764,7 +764,7 @@ export const felines: Feline[] = [
       population: "2,500-10,000",
       threats: ["Habitat loss", "Poisoning", "Prey depletion"]
     },
-    images: ["/assets/images/chinese_mountain_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/chinese_mountain_cat.png"],
     funFacts: [
       "China's only endemic wild cat",
       "Live at altitudes up to 5,000 meters",
@@ -799,7 +799,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat degradation", "Hunting", "Prey depletion"]
     },
-    images: ["/assets/images/pallas_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/pallas_cat.png"],
     funFacts: [
       "Have the longest and densest fur of any wild cat",
       "Their pupils are round, not slit-like",
@@ -834,7 +834,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Agriculture expansion", "Human disturbance"]
     },
-    images: ["/assets/images/rusty_spotted_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/rusty_spotted_cat.png"],
     funFacts: [
       "One of the world's smallest wild cats",
       "Called the 'hummingbird of the cat family'",
@@ -869,7 +869,7 @@ export const felines: Feline[] = [
       population: "2,500-10,000",
       threats: ["Wetland destruction", "Pollution", "Human encroachment"]
     },
-    images: ["/assets/images/fishing_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/fishing_cat.png"],
     funFacts: [
       "Have partially webbed paws",
       "Are excellent swimmers",
@@ -904,7 +904,7 @@ export const felines: Feline[] = [
       population: "2,500",
       threats: ["Habitat loss", "Water pollution", "Palm oil plantations"]
     },
-    images: ["/assets/images/flat_headed_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/flat_headed_cat.png"],
     funFacts: [
       "Have a distinctively flattened skull",
       "Are semi-aquatic",
@@ -939,7 +939,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting for fur", "Road accidents"]
     },
-    images: ["/assets/images/leopard_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/leopard_cat.png"],
     funFacts: [
       "Most widespread Asian small cat",
       "Ancestor of Bengal domestic cats",
@@ -974,7 +974,7 @@ export const felines: Feline[] = [
       population: "4,500-10,000",
       threats: ["Deforestation", "Palm oil plantations", "Hunting"]
     },
-    images: ["/assets/images/sunda_clouded_leopard.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/sunda_clouded_leopard.png"],
     funFacts: [
       "Have the longest canine teeth relative to body size",
       "Can rotate their ankles to climb down trees head-first",
@@ -1009,7 +1009,7 @@ export const felines: Feline[] = [
       population: "10,000",
       threats: ["Deforestation", "Poaching", "Habitat fragmentation"]
     },
-    images: ["/assets/images/clouded_leopard.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/clouded_leopard.png"],
     funFacts: [
       "Have cloud-like markings on their coat",
       "Can hang upside down from branches",
@@ -1043,7 +1043,7 @@ export const felines: Feline[] = [
       population: "2,500",
       threats: ["Deforestation", "Palm oil plantations", "Habitat loss"]
     },
-    images: ["/assets/images/bay_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/bay_cat.png"],
     funFacts: [
       "Endemic to Borneo",
       "One of the world's least known wild cats",
@@ -1078,7 +1078,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Hunting", "Habitat fragmentation"]
     },
-    images: ["/assets/images/asian_golden_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/asian_golden_cat.png"],
     funFacts: [
       "Have highly variable coat colors",
       "Are excellent climbers and swimmers",
@@ -1113,7 +1113,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Hunting", "Habitat loss"]
     },
-    images: ["/assets/images/african_golden_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/african_golden_cat.png"],
     funFacts: [
       "Have a beautiful golden coat",
       "Are excellent climbers",
@@ -1148,7 +1148,7 @@ export const felines: Feline[] = [
       population: "1,378-2,500",
       threats: ["Habitat loss", "Prey depletion", "Mining activities"]
     },
-    images: ["/assets/images/andean_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/andean_cat.png"],
     funFacts: [
       "One of the world's most endangered cats",
       "Live at altitudes up to 5,000 meters",
@@ -1183,7 +1183,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting", "Road accidents"]
     },
-    images: ["/assets/images/pampas_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/pampas_cat.png"],
     funFacts: [
       "Have highly variable coat patterns",
       "Are adaptable to various habitats",
@@ -1218,7 +1218,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Agriculture"]
     },
-    images: ["/assets/images/southern_tiger_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/southern_tiger_cat.png"],
     funFacts: [
       "Recently recognized as separate species",
       "Primarily terrestrial hunters",
@@ -1253,7 +1253,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Hunting"]
     },
-    images: ["/assets/images/tiger_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/tiger_cat.png"],
     funFacts: [
       "Primarily arboreal lifestyle",
       "Have the largest eyes relative to head size",
@@ -1288,7 +1288,7 @@ export const felines: Feline[] = [
       population: "9,000-12,000",
       threats: ["Deforestation", "Habitat fragmentation", "Domestic dog attacks"]
     },
-    images: ["/assets/images/guina.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/guina.png"],
     funFacts: [
       "Smallest wild cat in the Americas",
       "Can climb trees with trunks up to 2 meters in diameter",
@@ -1323,7 +1323,7 @@ export const felines: Feline[] = [
       population: "2,500",
       threats: ["Deforestation", "Palm oil plantations", "Habitat destruction"]
     },
-    images: ["/assets/images/borneo_bay_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/borneo_bay_cat.png"],
     funFacts: [
       "One of the world's least studied wild cats",
       "Endemic only to Borneo",
@@ -1357,7 +1357,7 @@ export const felines: Feline[] = [
       population: "100-250",
       threats: ["Habitat loss", "Road accidents", "Tourism development"]
     },
-    images: ["/assets/images/iriomote_cat.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/iriomote_cat.png"],
     funFacts: [
       "Found only on one small Japanese island",
       "Discovered by science only in 1965",
@@ -1392,7 +1392,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Climate change", "Habitat loss", "Trapping"]
     },
-    images: ["/assets/images/canada_lynx.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/canada_lynx.png"],
     funFacts: [
       "Have large, snowshoe-like paws",
       "Specialized hunters of snowshoe hares",
@@ -1427,7 +1427,7 @@ export const felines: Feline[] = [
       population: "1,100+",
       threats: ["Habitat fragmentation", "Road accidents", "Disease"]
     },
-    images: ["/assets/images/iberian_lynx.png"],
+    images: ["https://res.cloudinary.com/dihuirxdd/image/upload/v1755817649/iberian_lynx.png"],
     funFacts: [
       "Was the world's most endangered cat",
       "Population recovered from 94 to 1,100+",
