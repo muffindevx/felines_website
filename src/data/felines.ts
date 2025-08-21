@@ -274,7 +274,7 @@ export const felines: Feline[] = [
       population: "45,000-50,000",
       threats: ["Habitat loss", "Prey depletion", "Hunting"]
     },
-    images: ["/assets/images/eurisian_lynx.png"],
+    images: ["/assets/images/eurasian_lynx.png"],
     funFacts: [
       "Can hear a mouse moving 75 meters away",
       "Their large paws act like snowshoes",
@@ -554,7 +554,7 @@ export const felines: Feline[] = [
       population: "9,000-12,000",
       threats: ["Deforestation", "Habitat fragmentation", "Domestic dog attacks"]
     },
-     images: ["/assets/images/kodkod.png"],
+    images: ["/assets/images/kodkod.png"],
     funFacts: [
       "Smallest wild cat in the Americas",
       "Primarily arboreal",
@@ -589,7 +589,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/oncilla.png"],
     funFacts: [
       "Primarily arboreal",
       "Have the largest eyes relative to head size of any cat",
@@ -624,7 +624,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat degradation", "Hunting", "Collection for pet trade"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/sand_cat.png"],
     funFacts: [
       "Can survive without drinking water",
       "Have fur on the soles of their feet",
@@ -659,7 +659,7 @@ export const felines: Feline[] = [
       population: "9,707-13,867",
       threats: ["Habitat loss", "Poisoning", "Road accidents"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/black_footed_cat.png"],
     funFacts: [
       "Africa's smallest wild cat",
       "Has a 60% hunting success rate",
@@ -694,7 +694,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting", "Hybridization with domestic cats"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/jungle_cat.png"],
     funFacts: [
       "Largest of the Felis genus",
       "Excellent swimmers",
@@ -729,7 +729,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Hybridization with domestic cats", "Habitat loss", "Disease"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/european_wildcat.png"],
     funFacts: [
       "Ancestor of domestic cats",
       "Have a more robust build than domestic cats",
@@ -764,7 +764,7 @@ export const felines: Feline[] = [
       population: "2,500-10,000",
       threats: ["Habitat loss", "Poisoning", "Prey depletion"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/chinese_mountain_cat.png"],
     funFacts: [
       "China's only endemic wild cat",
       "Live at altitudes up to 5,000 meters",
@@ -799,7 +799,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat degradation", "Hunting", "Prey depletion"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/pallas_cat.png"],
     funFacts: [
       "Have the longest and densest fur of any wild cat",
       "Their pupils are round, not slit-like",
@@ -834,7 +834,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Agriculture expansion", "Human disturbance"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/rusty_spotted_cat.png"],
     funFacts: [
       "One of the world's smallest wild cats",
       "Called the 'hummingbird of the cat family'",
@@ -869,7 +869,7 @@ export const felines: Feline[] = [
       population: "2,500-10,000",
       threats: ["Wetland destruction", "Pollution", "Human encroachment"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/fishing_cat.png"],
     funFacts: [
       "Have partially webbed paws",
       "Are excellent swimmers",
@@ -904,7 +904,7 @@ export const felines: Feline[] = [
       population: "2,500",
       threats: ["Habitat loss", "Water pollution", "Palm oil plantations"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/flat_headed_cat.png"],
     funFacts: [
       "Have a distinctively flattened skull",
       "Are semi-aquatic",
@@ -939,7 +939,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting for fur", "Road accidents"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/leopard_cat.png"],
     funFacts: [
       "Most widespread Asian small cat",
       "Ancestor of Bengal domestic cats",
@@ -974,7 +974,7 @@ export const felines: Feline[] = [
       population: "4,500-10,000",
       threats: ["Deforestation", "Palm oil plantations", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/sunda_clouded_leopard.png"],
     funFacts: [
       "Have the longest canine teeth relative to body size",
       "Can rotate their ankles to climb down trees head-first",
@@ -1009,7 +1009,7 @@ export const felines: Feline[] = [
       population: "10,000",
       threats: ["Deforestation", "Poaching", "Habitat fragmentation"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/clouded_leopard.png"],
     funFacts: [
       "Have cloud-like markings on their coat",
       "Can hang upside down from branches",
@@ -1043,7 +1043,7 @@ export const felines: Feline[] = [
       population: "2,500",
       threats: ["Deforestation", "Palm oil plantations", "Habitat loss"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/bay_cat.png"],
     funFacts: [
       "Endemic to Borneo",
       "One of the world's least known wild cats",
@@ -1078,7 +1078,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Hunting", "Habitat fragmentation"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/asian_golden_cat.png"],
     funFacts: [
       "Have highly variable coat colors",
       "Are excellent climbers and swimmers",
@@ -1183,7 +1183,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting", "Road accidents"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/pampas_cat.png"],
     funFacts: [
       "Have highly variable coat patterns",
       "Are adaptable to various habitats",
@@ -1218,7 +1218,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Agriculture"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/southern_tiger_cat.png"],
     funFacts: [
       "Recently recognized as separate species",
       "Primarily terrestrial hunters",
@@ -1253,7 +1253,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/tiger_cat.png"],
     funFacts: [
       "Primarily arboreal lifestyle",
       "Have the largest eyes relative to head size",
@@ -1288,7 +1288,7 @@ export const felines: Feline[] = [
       population: "9,000-12,000",
       threats: ["Deforestation", "Habitat fragmentation", "Domestic dog attacks"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/guina.png"],
     funFacts: [
       "Smallest wild cat in the Americas",
       "Can climb trees with trunks up to 2 meters in diameter",
@@ -1323,7 +1323,7 @@ export const felines: Feline[] = [
       population: "2,500",
       threats: ["Deforestation", "Palm oil plantations", "Habitat destruction"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/borneo_bay_cat.png"],
     funFacts: [
       "One of the world's least studied wild cats",
       "Endemic only to Borneo",
@@ -1357,7 +1357,7 @@ export const felines: Feline[] = [
       population: "100-250",
       threats: ["Habitat loss", "Road accidents", "Tourism development"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/iriomote_cat.png"],
     funFacts: [
       "Found only on one small Japanese island",
       "Discovered by science only in 1965",
@@ -1392,7 +1392,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Climate change", "Habitat loss", "Trapping"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/canada_lynx.png"],
     funFacts: [
       "Have large, snowshoe-like paws",
       "Specialized hunters of snowshoe hares",
@@ -1427,7 +1427,7 @@ export const felines: Feline[] = [
       population: "1,100+",
       threats: ["Habitat fragmentation", "Road accidents", "Disease"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/iberian_lynx.png"],
     funFacts: [
       "Was the world's most endangered cat",
       "Population recovered from 94 to 1,100+",
