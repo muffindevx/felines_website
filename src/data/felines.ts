@@ -64,7 +64,7 @@ export const felines: Feline[] = [
       population: "400-500",
       threats: ["Poaching", "Habitat fragmentation", "Prey depletion"]
     },
-    images: ["/assets/images/siberian_tiger.png"],
+    images: ["/assets/images/tiger.png"],
     funFacts: [
       "Can leap horizontally up to 10 meters",
       "Has night vision 6 times better than humans",
