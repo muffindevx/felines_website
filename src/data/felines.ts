@@ -1148,7 +1148,7 @@ export const felines: Feline[] = [
       population: "1,378-2,500",
       threats: ["Habitat loss", "Prey depletion", "Mining activities"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/andean_cat.png"],
     funFacts: [
       "One of the world's most endangered cats",
       "Live at altitudes up to 5,000 meters",
