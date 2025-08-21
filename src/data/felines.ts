@@ -29,7 +29,7 @@ export const felines: Feline[] = [
       population: "20,000-25,000",
       threats: ["Habitat loss", "Human-wildlife conflict", "Poaching"]
     },
-    images: ["https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg"],
+    images: ["/assets/images/lion.png"],
     funFacts: [
       "A lion's roar can be heard from 8 kilometers away",
       "Lions sleep 16-20 hours per day",
@@ -64,7 +64,7 @@ export const felines: Feline[] = [
       population: "400-500",
       threats: ["Poaching", "Habitat fragmentation", "Prey depletion"]
     },
-    images: ["https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg"],
+    images: ["/assets/images/siberian_tiger.png"],
     funFacts: [
       "Can leap horizontally up to 10 meters",
       "Has night vision 6 times better than humans",
@@ -99,7 +99,7 @@ export const felines: Feline[] = [
       population: "2,710-3,386",
       threats: ["Climate change", "Poaching", "Retaliatory killing"]
     },
-    images: ["https://images.pexels.com/photos/1054713/pexels-photo-1054713.jpeg"],
+    images: ["/assets/images/snow_leopard.png"],
     funFacts: [
       "Can jump up to 15 meters in a single leap",
       "Their large paws act like snowshoes",
@@ -134,7 +134,7 @@ export const felines: Feline[] = [
       population: "64,000-173,000",
       threats: ["Deforestation", "Habitat fragmentation", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/162140/panthera-onca-jaguar-big-cat-162140.jpeg"],
+    images: ["/assets/images/jaguar.png"],
     funFacts: [
       "Has the strongest bite force of any big cat",
       "Excellent swimmers and often hunt in water",
@@ -169,7 +169,7 @@ export const felines: Feline[] = [
       population: "700,000-1,000,000",
       threats: ["Habitat loss", "Poaching", "Human-wildlife conflict"]
     },
-    images: ["https://images.pexels.com/photos/86596/owl-bird-eyes-eagle-owl-86596.jpeg"],
+    images: ["/assets/images/leopard.png"],
     funFacts: [
       "Can carry prey twice their body weight up a tree",
       "Have exceptional night vision",
@@ -204,7 +204,7 @@ export const felines: Feline[] = [
       population: "6,500-7,000",
       threats: ["Habitat loss", "Human-wildlife conflict", "Genetic bottleneck"]
     },
-    images: ["https://images.pexels.com/photos/133459/pexels-photo-133459.jpeg"],
+    images: ["/assets/images/cheetah.png"],
     funFacts: [
       "Can accelerate from 0 to 100 km/h in 3 seconds",
       "Cannot retract their claws completely",
@@ -239,7 +239,7 @@ export const felines: Feline[] = [
       population: "50,000+",
       threats: ["Habitat fragmentation", "Hunting", "Vehicle strikes"]
     },
-    images: ["https://images.pexels.com/photos/635499/pexels-photo-635499.jpeg"],
+    images: ["/assets/images/puma.png"],
     funFacts: [
       "Can jump vertically up to 5.5 meters",
       "Cannot roar, only purr and scream",
@@ -274,7 +274,7 @@ export const felines: Feline[] = [
       population: "45,000-50,000",
       threats: ["Habitat loss", "Prey depletion", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/eurisian_lynx.png"],
     funFacts: [
       "Can hear a mouse moving 75 meters away",
       "Their large paws act like snowshoes",
@@ -309,7 +309,7 @@ export const felines: Feline[] = [
       population: "2,300,000-3,500,000",
       threats: ["Habitat loss", "Vehicle strikes", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/bobcat.png"],
     funFacts: [
       "Can leap up to 3 meters high",
       "Have excellent night vision",
@@ -344,7 +344,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting", "Road accidents"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/caracal.png"],
     funFacts: [
       "Can leap 3 meters high to catch birds",
       "Can survive without drinking water",
@@ -379,7 +379,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting for fur", "Road accidents"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/serval.png"],
     funFacts: [
       "Have the longest legs relative to body size of any cat",
       "Can hear prey moving underground",
@@ -414,7 +414,7 @@ export const felines: Feline[] = [
       population: "800,000-1,500,000",
       threats: ["Habitat loss", "Road accidents", "Illegal pet trade"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/ocelot.png"],
     funFacts: [
       "Each ocelot has a unique spot pattern",
       "Are excellent swimmers",
@@ -449,7 +449,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Deforestation", "Habitat fragmentation", "Illegal pet trade"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/margay.png"],
     funFacts: [
       "Can rotate their ankles 180 degrees",
       "Spend most of their life in trees",
@@ -484,7 +484,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Road accidents", "Hunting"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/jaguarundi.png"],
     funFacts: [
       "Are active during the day unlike most cats",
       "Have an otter-like appearance",
@@ -519,7 +519,7 @@ export const felines: Feline[] = [
       population: "Unknown",
       threats: ["Habitat loss", "Hunting for fur", "Road accidents"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+    images: ["/assets/images/geoffroys_cat.png"],
     funFacts: [
       "Can live at altitudes up to 3,300 meters",
       "Are excellent swimmers",
@@ -554,7 +554,7 @@ export const felines: Feline[] = [
       population: "9,000-12,000",
       threats: ["Deforestation", "Habitat fragmentation", "Domestic dog attacks"]
     },
-    images: ["https://images.pexels.com/photos/1670732/pexels-photo-1670732.jpeg"],
+     images: ["/assets/images/kodkod.png"],
     funFacts: [
       "Smallest wild cat in the Americas",
       "Primarily arboreal",
