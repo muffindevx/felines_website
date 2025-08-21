@@ -77,7 +77,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
           {/* Desktop Layout */}
           <div className="hidden lg:flex lg:w-full lg:h-full">
             {/* Left Side - Information */}
-            <div className="lg:w-3/5 overflow-y-auto flex-1 min-h-0">
+            <div className="lg:w-3/5 overflow-y-auto flex-1 min-h-0" style={{ maxHeight: '95vh' }}>
               <div className="p-4 lg:p-8 space-y-4 lg:space-y-8 pb-8 pt-6 lg:pt-4">
                 {/* Header */}
                 <div>
@@ -252,9 +252,9 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
 
             {/* Right Side - Image */}
             <div className="lg:w-2/5 relative flex-shrink-0">
-              <div className="h-full bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 flex items-center justify-center rounded-tl-3xl rounded-bl-3xl">
+              <div className="h-full bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 flex items-center justify-center">
                 {/* Watercolor background effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-200/30 via-red-200/30 to-pink-200/30 blur-sm rounded-tl-3xl rounded-bl-3xl"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-200/30 via-red-200/30 to-pink-200/30 blur-sm"></div>
                 <div className="absolute top-6 right-6 w-24 h-24 bg-gradient-to-br from-amber-300/30 to-orange-300/30 rounded-full blur-xl"></div>
                 <div className="absolute bottom-6 left-6 w-20 h-20 bg-gradient-to-br from-red-300/30 to-pink-300/30 rounded-full blur-lg"></div>
                 
@@ -262,7 +262,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
                   <img 
                     src={feline.images[0]} 
                     alt={feline.name}
-                    className="w-full h-full object-cover rounded-tl-3xl rounded-bl-3xl shadow-2xl"
+                    className="w-full h-full object-cover shadow-2xl"
                     style={{
                       filter: 'sepia(15%) saturate(110%) hue-rotate(5deg) brightness(105%)'
                     }}
@@ -273,7 +273,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
           </div>
 
           {/* Mobile Information */}
-          <div className="lg:hidden overflow-y-auto flex-1 min-h-0">
+          <div className="lg:hidden overflow-y-auto flex-1 min-h-0" style={{ maxHeight: 'calc(95vh - 16rem)' }}>
             <div className="p-4 lg:p-8 space-y-4 lg:space-y-8 pb-8 pt-6 lg:pt-4">
               {/* Header */}
               <div>
