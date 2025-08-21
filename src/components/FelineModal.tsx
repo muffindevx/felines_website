@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, MapPin, Heart, Weight, Ruler, Clock, Zap, Utensils, Globe, Shield, AlertTriangle, Lightbulb } from 'lucide-react';
+import { X, MapPin, Weight, Ruler, Clock, Zap, Utensils, Globe, Shield, AlertTriangle, Lightbulb } from 'lucide-react';
 import { Feline } from '../types/feline';
 
 interface FelineModalProps {
@@ -29,7 +29,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       {/* Backdrop */}
-      <div 
+      <div
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
         style={{
@@ -38,7 +38,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
       ></div>
 
       {/* Modal */}
-      <div 
+      <div
         className="relative bg-white rounded-3xl shadow-2xl max-w-6xl w-full max-h-[95vh] overflow-hidden"
         style={{
           animation: isOpen ? 'slideInUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)' : 'slideOutDown 0.3s ease-in'
@@ -52,20 +52,20 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
           <X className="w-5 h-5 text-gray-700" />
         </button>
 
-        <div className="flex flex-col lg:flex-row h-full max-h-[95vh]">
+        <div className="flex flex-col lg:flex-row h-full md:max-h-[95vh]">
           {/* Mobile Image - Top */}
           <div className="lg:hidden relative flex-shrink-0">
-            <div className="h-64 sm:h-72 lg:h-full bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 flex items-center justify-center">
+            <div className="h-64 sm:h-72 lg:h-full flex items-center justify-center">
               {/* Watercolor background effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-200/30 via-red-200/30 to-pink-200/30 blur-sm"></div>
               <div className="absolute top-4 right-4 lg:top-6 lg:right-6 w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-br from-amber-300/30 to-orange-300/30 rounded-full blur-xl"></div>
               <div className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 w-12 h-12 lg:w-20 lg:h-20 bg-gradient-to-br from-red-300/30 to-pink-300/30 rounded-full blur-lg"></div>
-              
+
               <div className="relative z-10 w-full h-full flex items-center justify-center">
-                <img 
-                  src={feline.images[0]} 
+                <img
+                  src={feline.images[0]}
                   alt={feline.name}
-                  className="w-full h-full object-cover shadow-2xl"
+                  className="w-full h-full object-cover"
                   style={{
                     filter: 'sepia(15%) saturate(110%) hue-rotate(5deg) brightness(105%)'
                   }}
@@ -77,7 +77,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
           {/* Desktop Layout */}
           <div className="hidden lg:flex lg:w-full lg:h-full">
             {/* Left Side - Information */}
-            <div className="lg:w-3/5 overflow-y-auto flex-1 min-h-0" style={{ maxHeight: '95vh' }}>
+            <div className="lg:w-3/5 overflow-y-auto flex-1 min-h-0 lg:max-h-[95vh]">
               <div className="p-4 lg:p-8 space-y-4 lg:space-y-8 pb-8 pt-6 lg:pt-4">
                 {/* Header */}
                 <div>
@@ -257,12 +257,12 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-200/30 via-red-200/30 to-pink-200/30 blur-sm"></div>
                 <div className="absolute top-6 right-6 w-24 h-24 bg-gradient-to-br from-amber-300/30 to-orange-300/30 rounded-full blur-xl"></div>
                 <div className="absolute bottom-6 left-6 w-20 h-20 bg-gradient-to-br from-red-300/30 to-pink-300/30 rounded-full blur-lg"></div>
-                
+
                 <div className="relative z-10 w-full h-full flex items-center justify-center">
-                  <img 
-                    src={feline.images[0]} 
+                  <img
+                    src={feline.images[0]}
                     alt={feline.name}
-                    className="w-full h-full object-cover shadow-2xl"
+                    className="w-full h-full object-cover object-right shadow-2xl"
                     style={{
                       filter: 'sepia(15%) saturate(110%) hue-rotate(5deg) brightness(105%)'
                     }}

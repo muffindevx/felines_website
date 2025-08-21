@@ -26,7 +26,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer transform hover:scale-105 hover:-rotate-1 overflow-hidden h-[520px] flex flex-col"
+      className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer transform hover:scale-105 hover:-rotate-1 overflow-hidden h-full flex flex-col"
       style={{
         background: 'linear-gradient(145deg, #ffffff 0%, #f8fafc 100%)',
         boxShadow: '0 10px 30px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.6)'
@@ -39,7 +39,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
 
       {/* Card Content */}
       <div className="relative z-10 flex flex-col h-full">
-        <header>
+        <header className="relative isolate z-10 w-full h-48">
           {/* Image Container with Watercolor Effect */}
           <div className="relative mb-6 overflow-hidden flex-shrink-0 rounded-t-2xl">
             <div className="bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 h-48">
@@ -54,7 +54,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
                   <img
                     src={feline.images[0]}
                     alt={feline.name}
-                    className="w-full h-full object-cover object-center shadow-lg group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     style={{
                       filter: 'sepia(20%) saturate(120%) hue-rotate(10deg) brightness(110%)'
                     }}
@@ -121,44 +121,6 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
               </span>
             </div>
           </div>
-
-          {/* <div className="grid grid-cols-2 gap-3 mb-6 flex-shrink-0">
-            <div className="flex items-center space-x-2">
-              <Zap className="w-4 h-4 text-orange-500" />
-              <span className="text-xs text-gray-600">
-                <span className="font-semibold">Speed:</span> {feline.characteristics.speed}
-              </span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Clock className="w-4 h-4 text-blue-500" />
-              <span className="text-xs text-gray-600">
-                <span className="font-semibold">Lifespan:</span> {feline.characteristics.lifespan}
-              </span>
-            </div>
-          </div> */}
-
-          {/* Habitat and Conservation */}
-          {/* <div className="space-y-3 flex-shrink-0 mt-auto pt-2">
-            <div className="flex items-start space-x-2">
-              <MapPin className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-              <div>
-                <p className="text-xs text-gray-600">
-                  <span className="font-semibold">Habitat:</span> {feline.habitat.regions.slice(0, 2).join(', ')}
-                  {feline.habitat.regions.length > 2 && ` +${feline.habitat.regions.length - 2} more`}
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-2">
-                <Heart className="w-4 h-4 text-red-500" />
-                <span className="text-xs text-gray-600 font-semibold">Conservation:</span>
-              </div>
-              <span className={`px-2 py-1 rounded-full text-xs font-semibold ${getStatusColor(feline.conservation.status)}`}>
-                {feline.conservation.status}
-              </span>
-            </div>
-          </div> */}
         </section>
 
 
