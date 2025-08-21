@@ -40,8 +40,8 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
       {/* Card Content */}
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* Image Container with Watercolor Effect */}
-        <div className="relative mb-6 overflow-hidden flex-shrink-0 -mx-6 -mt-6">
-          <div className="aspect-w-16 aspect-h-12 bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 p-4">
+        <div className="relative mb-6 overflow-hidden flex-shrink-0 -mx-6 -mt-6 rounded-t-2xl">
+          <div className="aspect-w-16 aspect-h-12 bg-gradient-to-br from-amber-100 via-orange-100 to-red-100">
             <div className="relative">
               {/* Watercolor background effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-200/50 via-red-200/50 to-pink-200/50 blur-sm"></div>
@@ -53,7 +53,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
                 <img 
                   src={feline.images[0]} 
                   alt={feline.name}
-                  className="w-full h-full object-cover shadow-lg group-hover:scale-110 transition-transform duration-500 rounded-t-2xl"
+                  className="w-full h-full object-cover shadow-lg group-hover:scale-110 transition-transform duration-500"
                   style={{
                     filter: 'sepia(20%) saturate(120%) hue-rotate(10deg) brightness(110%)'
                   }}

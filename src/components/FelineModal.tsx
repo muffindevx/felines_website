@@ -55,17 +55,17 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
         <div className="flex flex-col lg:flex-row h-full max-h-[95vh]">
           {/* Mobile Image - Top */}
           <div className="lg:hidden relative flex-shrink-0">
-            <div className="h-64 sm:h-72 lg:h-full bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 p-0 lg:p-6 flex items-center justify-center">
+            <div className="h-64 sm:h-72 lg:h-full bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 flex items-center justify-center">
               {/* Watercolor background effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-200/30 via-red-200/30 to-pink-200/30 blur-sm"></div>
               <div className="absolute top-4 right-4 lg:top-6 lg:right-6 w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-br from-amber-300/30 to-orange-300/30 rounded-full blur-xl"></div>
               <div className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 w-12 h-12 lg:w-20 lg:h-20 bg-gradient-to-br from-red-300/30 to-pink-300/30 rounded-full blur-lg"></div>
               
-              <div className="relative z-10 w-full h-full flex items-center justify-center p-4 lg:p-4">
+              <div className="relative z-10 w-full h-full flex items-center justify-center">
                 <img 
                   src={feline.images[0]} 
                   alt={feline.name}
-                  className="w-full h-full object-cover rounded-none shadow-2xl"
+                  className="w-full h-full object-cover shadow-2xl"
                   style={{
                     filter: 'sepia(15%) saturate(110%) hue-rotate(5deg) brightness(105%)'
                   }}
@@ -258,7 +258,7 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
                 <div className="absolute top-6 right-6 w-24 h-24 bg-gradient-to-br from-amber-300/30 to-orange-300/30 rounded-full blur-xl"></div>
                 <div className="absolute bottom-6 left-6 w-20 h-20 bg-gradient-to-br from-red-300/30 to-pink-300/30 rounded-full blur-lg"></div>
                 
-                <div className="relative z-10 w-full h-full flex items-center justify-center p-6">
+                <div className="relative z-10 w-full h-full flex items-center justify-center">
                   <img 
                     src={feline.images[0]} 
                     alt={feline.name}
