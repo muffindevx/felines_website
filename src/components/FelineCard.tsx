@@ -40,11 +40,11 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
       {/* Card Content */}
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* Image Container with Watercolor Effect */}
-        <div className="relative mb-6 overflow-hidden rounded-xl flex-shrink-0 -mx-6 -mt-6 lg:mx-0 lg:mt-0 lg:rounded-xl">
-          <div className="aspect-w-16 aspect-h-12 bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 rounded-xl p-4">
+        <div className="relative mb-6 overflow-hidden flex-shrink-0 -mx-6 -mt-6 rounded-t-2xl">
+          <div className="aspect-w-16 aspect-h-12 bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 p-4">
             <div className="relative">
               {/* Watercolor background effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-200/50 via-red-200/50 to-pink-200/50 rounded-none lg:rounded-lg blur-sm"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-200/50 via-red-200/50 to-pink-200/50 blur-sm"></div>
               <div className="absolute top-2 right-2 w-16 h-16 bg-gradient-to-br from-amber-300/40 to-orange-300/40 rounded-full blur-lg"></div>
               <div className="absolute bottom-2 left-2 w-12 h-12 bg-gradient-to-br from-red-300/40 to-pink-300/40 rounded-full blur-md"></div>
               
@@ -53,7 +53,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
                 <img 
                   src={feline.images[0]} 
                   alt={feline.name}
-                  className="w-full h-full object-cover rounded-none lg:rounded-lg shadow-lg group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover shadow-lg group-hover:scale-110 transition-transform duration-500"
                   style={{
                     filter: 'sepia(20%) saturate(120%) hue-rotate(10deg) brightness(110%)'
                   }}
@@ -64,14 +64,14 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
         </div>
 
         {/* Category Badge */}
-        <div className="absolute top-2 right-2 z-20 lg:top-4 lg:right-4">
+        <div className="absolute top-4 right-4 z-20">
           <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg">
             {feline.category}
           </span>
         </div>
 
         {/* Title and Scientific Name */}
-        <div className="mb-4 flex-shrink-0 mt-2 lg:mt-0">
+        <div className="mb-4 flex-shrink-0 px-6">
           <h3 className="text-2xl font-bold text-gray-800 mb-1 group-hover:text-orange-600 transition-colors duration-300">
             {feline.name}
           </h3>
@@ -81,12 +81,12 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
         </div>
 
         {/* Short Description */}
-        <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow line-clamp-3">
+        <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow line-clamp-3 px-6">
           {feline.shortDescription}
         </p>
 
         {/* Key Stats */}
-        <div className="grid grid-cols-2 gap-3 mb-4 flex-shrink-0">
+        <div className="grid grid-cols-2 gap-3 mb-4 flex-shrink-0 px-6">
           <div className="flex items-center space-x-2">
             <Zap className="w-4 h-4 text-orange-500" />
             <span className="text-xs text-gray-600">
@@ -102,7 +102,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
         </div>
 
         {/* Habitat and Conservation */}
-        <div className="space-y-3 flex-shrink-0 mt-auto">
+        <div className="space-y-3 flex-shrink-0 mt-auto px-6 pb-6">
           <div className="flex items-start space-x-2">
             <MapPin className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
             <div>
