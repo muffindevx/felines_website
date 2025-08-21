@@ -41,7 +41,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* Image Container with Watercolor Effect */}
         <div className="relative mb-6 overflow-hidden flex-shrink-0 -mx-6 -mt-6 rounded-t-2xl">
-          <div className="aspect-w-16 aspect-h-12 bg-gradient-to-br from-amber-100 via-orange-100 to-red-100">
+          <div className="bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 h-48">
             <div className="relative">
               {/* Watercolor background effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-orange-200/50 via-red-200/50 to-pink-200/50 blur-sm"></div>
@@ -49,7 +49,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
               <div className="absolute bottom-2 left-2 w-12 h-12 bg-gradient-to-br from-red-300/40 to-pink-300/40 rounded-full blur-md"></div>
               
               {/* Feline silhouette representation */}
-              <div className="relative z-10 flex items-center justify-center h-40">
+              <div className="relative z-10 flex items-center justify-center h-48">
                 <img 
                   src={feline.images[0]} 
                   alt={feline.name}
@@ -86,7 +86,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
         </p>
 
         {/* Key Stats */}
-        <div className="grid grid-cols-2 gap-3 mb-4 flex-shrink-0">
+        <div className="grid grid-cols-2 gap-3 mb-6 flex-shrink-0">
           <div className="flex items-center space-x-2">
             <Zap className="w-4 h-4 text-orange-500" />
             <span className="text-xs text-gray-600">
@@ -102,7 +102,7 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
         </div>
 
         {/* Habitat and Conservation */}
-        <div className="space-y-3 flex-shrink-0 mt-auto">
+        <div className="space-y-3 flex-shrink-0 mt-auto pt-2">
           <div className="flex items-start space-x-2">
             <MapPin className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
             <div>
