@@ -39,10 +39,10 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
 
       {/* Card Content */}
       <div className="relative z-10 flex flex-col h-full">
-        <header className="relative isolate z-10 w-full h-48">
+        <header className="relative isolate z-10 w-full h-48 sm:h-56 md:h-64">
           {/* Image Container with Watercolor Effect */}
-          <div className="relative mb-6 overflow-hidden flex-shrink-0 rounded-t-2xl">
-            <div className="bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 h-48">
+          <div className="relative mb-6 overflow-hidden flex-shrink-0 rounded-t-2xl h-48 sm:h-56 md:h-64">
+            <div className="bg-gradient-to-br from-amber-100 via-orange-100 to-red-100 h-full w-full">
               <div className="relative">
                 {/* Watercolor background effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-200/50 via-red-200/50 to-pink-200/50 blur-sm"></div>
@@ -50,11 +50,11 @@ const FelineCard: React.FC<FelineCardProps> = ({ feline, onClick }) => {
                 <div className="absolute bottom-2 left-2 w-12 h-12 bg-gradient-to-br from-red-300/40 to-pink-300/40 rounded-full blur-md"></div>
 
                 {/* Feline silhouette representation */}
-                <div className="relative z-10 flex items-center justify-center h-48">
+                <div className="relative z-10 flex items-center justify-center h-full w-full">
                   <img
                     src={feline.images[0]}
                     alt={feline.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500 rounded-t-2xl"
                     style={{
                       filter: 'sepia(20%) saturate(120%) hue-rotate(10deg) brightness(110%)'
                     }}
