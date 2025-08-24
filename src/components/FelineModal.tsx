@@ -75,9 +75,9 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
           </div>
 
           {/* Desktop Layout */}
-          <div className="hidden lg:flex lg:w-full lg:h-full">
+          <div className="hidden lg:flex lg:w-full lg:h-[420px]">
             {/* Left Side - Information */}
-            <div className="lg:w-3/5 overflow-y-auto flex-1 min-h-0 lg:max-h-[95vh]">
+            <div className="lg:w-3/5 overflow-y-auto flex-1 min-h-0 lg:max-h-[420px]">
               <div className="p-4 lg:p-8 space-y-4 lg:space-y-8 pb-8 pt-6 lg:pt-4">
                 {/* Header */}
                 <div>
@@ -447,56 +447,6 @@ const FelineModal: React.FC<FelineModalProps> = ({ feline, isOpen, onClose }) =>
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        @keyframes fadeOut {
-          from { opacity: 1; }
-          to { opacity: 0; }
-        }
-        @keyframes slideInUp {
-          from { 
-            opacity: 0;
-            transform: translateY(100px) scale(0.9);
-          }
-          to { 
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-        }
-        @keyframes slideOutDown {
-          from { 
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-          to { 
-            opacity: 0;
-            transform: translateY(100px) scale(0.9);
-          }
-        }
-        
-        /* Custom scrollbar for the modal content */
-        .overflow-y-auto::-webkit-scrollbar {
-          width: 6px;
-        }
-        
-        .overflow-y-auto::-webkit-scrollbar-track {
-          background: #f1f1f1;
-          border-radius: 3px;
-        }
-        
-        .overflow-y-auto::-webkit-scrollbar-thumb {
-          background: #c1c1c1;
-          border-radius: 3px;
-        }
-        
-        .overflow-y-auto::-webkit-scrollbar-thumb:hover {
-          background: #a1a1a1;
-        }
-      `}</style>
     </div>
   );
 };
